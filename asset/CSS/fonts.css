@@ -14,11 +14,13 @@
     }
 
     
-    .bold, dt {
+    .bold {
         font-weight: bold;
     }
-
-    dd, footer {
+small{
+    font-style: oblique;
+}
+    footer {
         font-style: oblique;
         font-size: smaller ;
     }
@@ -33,7 +35,7 @@
         color: #ffffff;
     }
 
-    ul, dl{
+    ul {
         list-style-type: none;
     }
     
