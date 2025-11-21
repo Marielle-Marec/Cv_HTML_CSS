@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
   
-    a{ 
+    a, span{ 
         color: #ffffff;
         font-style: normal;
         text-decoration: none;
     }
 
-    
-    h3 {
+
+    h3, .date {
         color: #17abb3;
     }
 
@@ -17,7 +17,7 @@
     .bold, dt {
         font-weight: bold;
     }
-    
+
     dd, footer {
         font-style: oblique;
         font-size: smaller ;
@@ -33,7 +33,14 @@
         color: #ffffff;
     }
 
-    #competences, #langues, .dates {
+    ul, dl{
         list-style-type: none;
     }
     
+    .square {
+        list-style-type: square;
+    }
+
+    ul li::marker {
+    color :#17abb3;
+    }
